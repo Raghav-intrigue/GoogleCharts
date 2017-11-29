@@ -19,14 +19,14 @@ Chart Types :
 
 Screenshots:
 
-![alt tag](https://drive.google.com/uc?id=1Ir3DjCyz_GWzh4LNwbIyD_WYjzXx-h4L) 
-![alt tag](https://drive.google.com/uc?id=1s-OvQDkGIdQDChOutrNavGe_ADHP63At) 
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s1.png) 
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s2.png) 
 
-![alt tag](https://drive.google.com/uc?id=1j_Rlr8UJeqtHK_QzNA3bKGT2ShEcez_8)
-![alt tag](https://drive.google.com/uc?id=1jXNh6rs4cPvTmmOaD8hFILA9PAelIggn)
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s3.png)
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s4.png)
 
-![alt tag](https://drive.google.com/uc?id=1YPKVnO7em18SWlUvPirJTn6xsmGwllT-)
-![alt tag](https://drive.google.com/uc?id=1lHfRpNOvtlZDgogrM5Ar2VJVhBke6GMI)
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s5.png)
+![alt tag](https://raw.githubusercontent.com/huzaifaiftikhar/GoogleCharts/master/screenshots/s6.png)
 
 
 Credits :
