@@ -16,7 +16,18 @@
         ]);
 
         var options = {
-          title: Android.getChartTitle()
+          title: Android.getChartTitle(),
+          hAxis: {
+            title: 'woah',
+            titleTextStyle: {
+              color: 'white'
+            }
+          },
+          backgroundColor: 'blue',
+          chartArea:{
+            left:10,top:10,width:'75%',height:'75%',
+            backgroundColor:'#404040'
+            }
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));

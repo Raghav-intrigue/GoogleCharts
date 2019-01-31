@@ -1,15 +1,9 @@
 package org.huzaifa.googlecharts;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
@@ -17,9 +11,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import java.util.ArrayList;
+import java.util.List;
 
 @SuppressLint("SetJavaScriptEnabled")
-public class ShowWebChartActivity extends ActionBarActivity {
+public class ShowWebChartActivity extends AppCompatActivity {
 
     WebView webView;
     int num1, num2, num3, num4, num5;
@@ -47,25 +43,25 @@ public class ShowWebChartActivity extends ActionBarActivity {
         item5 = intent.getStringExtra("ITEM5");
         title = intent.getStringExtra("TITLE");
 
-        spCharts = (Spinner) findViewById(R.id.spcharts);
+        spCharts = findViewById(R.id.spcharts);
 
         listCharts = new ArrayList<String>();
-        listCharts.add("Pie Chart");
-        listCharts.add("Pie Chart 3D");
-        listCharts.add("Scatter Chart");
-        listCharts.add("Column Chart");
+//        listCharts.add("Pie Chart");
+//        listCharts.add("Pie Chart 3D");
+//        listCharts.add("Scatter Chart");
+//        listCharts.add("Column Chart");
         listCharts.add("Bar Chart");
-        listCharts.add("Histogram");
+//        listCharts.add("Histogram");
         listCharts.add("Line Chart");
         listCharts.add("Area Chart");
 
         listHtml = new ArrayList<String>();
-        listHtml.add("file:///android_asset/pie_chart.html");
-        listHtml.add("file:///android_asset/pie_chart_3d.html");
-        listHtml.add("file:///android_asset/scatter_chart.html");
-        listHtml.add("file:///android_asset/column_chart.html");
+//        listHtml.add("file:///android_asset/pie_chart.html");
+//        listHtml.add("file:///android_asset/pie_chart_3d.html");
+//        listHtml.add("file:///android_asset/scatter_chart.html");
+//        listHtml.add("file:///android_asset/column_chart.html");
         listHtml.add("file:///android_asset/bar_chart.html");
-        listHtml.add("file:///android_asset/histogram.html");
+//        listHtml.add("file:///android_asset/histogram.html");
         listHtml.add("file:///android_asset/line_chart.html");
         listHtml.add("file:///android_asset/area_chart.html");
 
@@ -89,9 +85,8 @@ public class ShowWebChartActivity extends ActionBarActivity {
             }
         });
 
-        webView = (WebView) findViewById(R.id.web);
+        webView = findViewById(R.id.web);
         webView.addJavascriptInterface(new WebAppInterface(), "Android");
-
         webView.getSettings().setJavaScriptEnabled(true);
 
     }
@@ -152,6 +147,7 @@ public class ShowWebChartActivity extends ActionBarActivity {
         public String getChartTitle() {
             return title;
         }
+
     }
 
 }

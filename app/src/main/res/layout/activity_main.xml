@@ -140,133 +140,134 @@
             android:layout_marginTop="5dp"/>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+      <!--
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:gravity="center"/>
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text=""
+                          android:gravity="center"/>
 
-                <EditText
-                    android:id="@+id/name1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="Item Name"
-                    android:inputType="textPersonName" />
+                      <EditText
+                          android:id="@+id/name1"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="Item Name"
+                          android:inputType="textPersonName" />
 
-                <EditText
-                    android:id="@+id/name2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="Item Name"
-                    android:inputType="textPersonName" />
+                      <EditText
+                          android:id="@+id/name2"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="Item Name"
+                          android:inputType="textPersonName" />
 
-                <EditText
-                    android:id="@+id/name3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="Item Name"
-                    android:inputType="textPersonName" />
-            </LinearLayout>
+                      <EditText
+                          android:id="@+id/name3"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="Item Name"
+                          android:inputType="textPersonName" />
+                  </LinearLayout>
 
-          <!--  <View
-                android:layout_width="33dp"
-                android:layout_height="match_parent" />-->
+                &lt;!&ndash;  <View
+                      android:layout_width="33dp"
+                      android:layout_height="match_parent" />&ndash;&gt;
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="From"
-                    android:gravity="center"/>
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="From"
+                          android:gravity="center"/>
 
-                <EditText
-                    android:id="@+id/fDate1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
+                      <EditText
+                          android:id="@+id/fDate1"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
 
-                <EditText
-                    android:id="@+id/fDate2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
+                      <EditText
+                          android:id="@+id/fDate2"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
 
-                <EditText
-                    android:id="@+id/fDate3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
-            </LinearLayout>
+                      <EditText
+                          android:id="@+id/fDate3"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
+                  </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="To"
-                    android:gravity="center"/>
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="To"
+                          android:gravity="center"/>
 
-                <EditText
-                    android:id="@+id/tDate1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
+                      <EditText
+                          android:id="@+id/tDate1"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
 
-                <EditText
-                    android:id="@+id/tDate2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
+                      <EditText
+                          android:id="@+id/tDate2"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
 
-                <EditText
-                    android:id="@+id/tDate3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="yyyy/mm/dd"
-                    android:inputType="date" />
-            </LinearLayout>
+                      <EditText
+                          android:id="@+id/tDate3"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:hint="yyyy/mm/dd"
+                          android:inputType="date" />
+                  </LinearLayout>
 
-        </LinearLayout>
+              </LinearLayout>
 
-        <Button
-            android:id="@+id/showTimeline"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Generate Timeline" />
+              <Button
+                  android:id="@+id/showTimeline"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Generate Timeline" />-->
 
 
     </LinearLayout>
